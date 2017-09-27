@@ -1,0 +1,15 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Beira Mar"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+description = ""
+homepage = "http://www.beiramaragencia.com/"
+tags = []
+features = []
+min_version = "0.29"
+
+[author]
+  name = "Mateus Neves"
+  homepage = "http://www.mateusneves.com.br/"

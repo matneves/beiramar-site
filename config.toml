@@ -1,0 +1,5 @@
+baseURL = "http://www.beiramaragencia.com/"
+languageCode = "pt-br"
+title = "Beira Mar Serviços Marítimos LTDA"
+theme = "beiramar"
+# publishDir = "docs"

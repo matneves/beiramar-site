@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Beira Mar Serviços Marítimos LTDA</title>
-    <link>http://www.beiramaragencia.com/</link>
+    <link>https://matneves.github.io/beiramar-site/</link>
     <description>Recent content on Beira Mar Serviços Marítimos LTDA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     
-	<atom:link href="http://www.beiramaragencia.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://matneves.github.io/beiramar-site/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

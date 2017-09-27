@@ -1,5 +1,5 @@
-baseURL = "http://www.beiramaragencia.com/"
+baseURL = "https://matneves.github.io/beiramar-site/"
 languageCode = "pt-br"
 title = "Beira Mar Serviços Marítimos LTDA"
 theme = "beiramar"
-# publishDir = "docs"
+publishDir = "docs"

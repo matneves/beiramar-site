@@ -6,9 +6,19 @@
     <description>Recent content on Beira Mar Serviços Marítimos LTDA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
+    <lastBuildDate>Sun, 08 Oct 2017 11:24:05 -0300</lastBuildDate>
     
 	<atom:link href="https://matneves.github.io/beiramar-site/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sobre</title>
+      <link>https://matneves.github.io/beiramar-site/sobre/</link>
+      <pubDate>Sun, 08 Oct 2017 11:24:05 -0300</pubDate>
+      
+      <guid>https://matneves.github.io/beiramar-site/sobre/</guid>
+      <description>A Beira Mar Serviços Marítimos LTDA. foi fundada em Fevereiro de 1992 em Salvador, Bahia. Nós trabalhamos, desde então, para garantir manobras de embarcações mais ágeis, informações precisas e proteção aos nossos clientes das burocracias do comércio marítimo moderno. Nossos clientes recebem as melhores soluções para todas as suas demandas logísticas e de informação, antes de suas embarcações chegarem ao destino e durante sua permanência no porto.</description>
+    </item>
     
   </channel>
 </rss>

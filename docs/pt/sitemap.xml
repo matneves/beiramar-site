@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://matneves.github.io/beiramar-site/sobre/</loc>
+    <lastmod>2017-10-08T11:24:05-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://matneves.github.io/beiramar-site/</loc>
+    <lastmod>2017-10-08T11:24:05-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

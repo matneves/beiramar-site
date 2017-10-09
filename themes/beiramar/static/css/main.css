@@ -6,9 +6,17 @@
 /* Template */
 @import 'creative.css';
 
+h3, .h3 {
+	font-size: 1.65rem;
+}
+
+#mainNav .navbar-brand {
+	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
 .navbar-brand {
 	text-align: center;
-	width: 230px;
+	width: 270px;
 }
 
 #mainNav.navbar-shrink .navbar-brand img {
@@ -31,4 +39,15 @@
 .navbar-brand .sub-link {
 	display: block;
 	font-size: 12px;
+}
+
+#portos {
+	padding-top: 0;
+    padding-bottom: 70px;
+    height: 485px;
+    box-sizing: border-box;
+}
+
+#portos #map {
+	height: 100%;
 }

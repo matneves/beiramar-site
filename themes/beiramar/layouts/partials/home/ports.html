@@ -1,0 +1,52 @@
+<section id="portos">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Portos e Terminais</h2>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  <div id="map"></div>
+</section>
+
+<script>
+  function initMap() {
+    var lat_min = -16.4443537;
+    var lat_max = -12.77648;
+    var lng_min = -39.0653656;
+    var lng_max = -38.4981107;
+
+    var salvador = {lat: -12.96591392, lng: -38.50997191};
+    var aratu = {lat: -12.77648, lng: -38.4981107};
+    var ilheus = {lat: -14.7769032, lng: -39.0272426};
+    var portoSeguro = {lat: -16.4443537, lng: -39.0653656};
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 7
+    });
+
+    map.setCenter(new google.maps.LatLng(
+      ((lat_max + lat_min) / 2.0),
+      ((lng_max + lng_min) / 2.0)
+      ));
+
+    var mkS = new google.maps.Marker({map: map, position: salvador, title: 'Porto de Salvador'});
+    var mkA = new google.maps.Marker({map: map, position: aratu, title: 'Porto de Aratu'});
+    var mkI = new google.maps.Marker({map: map, position: ilheus, title: 'Porto de Ilhéus'});
+    var mkP = new google.maps.Marker({map: map, position: portoSeguro, title: 'Porto Seguro'});
+
+    var infoS = new google.maps.InfoWindow({content: "Porto de Salvador"});
+    var infoA = new google.maps.InfoWindow({content: "Porto de Aratu"});
+    var infoI = new google.maps.InfoWindow({content: "Porto de Ilhéus"});
+    var infoP = new google.maps.InfoWindow({content: "Porto Seguro"});
+
+    mkS.addListener('click', function() {infoS.open(map, mkS); });
+    mkA.addListener('click', function() {infoA.open(map, mkA); });
+    mkI.addListener('click', function() {infoI.open(map, mkI); });
+    mkP.addListener('click', function() {infoP.open(map, mkP); });
+  }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBW-KTKP6Z2gzpOE-7bVj2lHqz4M17WJUA&callback=initMap" async defer></script>

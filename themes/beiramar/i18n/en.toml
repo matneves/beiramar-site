@@ -6,7 +6,23 @@ other = "About us"
 other = "About"
 [servicos]
 other = "Services"
-[clientes]
-other = "Clients"
+[portos]
+other = "Ports and Terminals"
 [contato]
 other = "Contact"
+[titulo-sobre]
+other = "We've got what you need"
+[nossos-servicos]
+other = "Our services"
+[titulo-servicos]
+other = "At your service"
+[servico-agenciamento]
+other = "Agency"
+[servico-supervisao-carga]
+other = "Cargo supervision"
+[servico-transporte]
+other = "Transport"
+[servico-reserva-hotel]
+other = "Hotel's reservation"
+[titulo-contato]
+other = "Let's Get In Touch"

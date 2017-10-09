@@ -2,10 +2,16 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
-        <h2 class="section-heading text-white">We've got what you need!</h2>
+        <h2 class="section-heading text-white">{{ i18n "titulo-sobre" }}</h2>
         <hr class="light">
-        <p class="text-faded">Beira Mar Serviços Marítimos LTDA. was established in February  1992 in Salvador, Bahia. We work hard to ensure the quickest possible vessel turnarounds, fast and accurate information and to protect our Customers from the vagaries of the modern day trading and shipping environment. Our clients receive the best possible solutions to all their logistical and information problems before their vessel reaches its destination and during the vessel’s stay in port.</p>
-        <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+        <div class="text-faded">
+          {{ range where .Data.Pages "Title" "Sobre" }}
+            {{ .Content }}
+          {{ end }}
+        </div>
+        <a class="btn btn-default btn-xl js-scroll-trigger" href="#servicos">
+          {{ i18n "nossos-servicos" }}
+        </a>
       </div>
     </div>
   </div>

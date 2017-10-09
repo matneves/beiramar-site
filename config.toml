@@ -1,13 +1,12 @@
 baseURL = "https://matneves.github.io/beiramar-site/"
 languageCode = "pt-br"
-title = "Beira Mar Serviços Marítimos LTDA"
 theme = "beiramar"
 publishDir = "docs"
 DefaultContentLanguage = "pt"
 
-# [Languages]
+[Languages]
 
-# [Languages.pt]
-# title = "Beira Mar Serviços Marítimos LTDA"
-# [Languages.en]
-# title = "Beira Mar Maritme Services LTDA"
+[Languages.pt]
+title = "Beira Mar Serviços Marítimos LTDA"
+[Languages.en]
+title = "Beira Mar Serviços Marítimos LTDA"

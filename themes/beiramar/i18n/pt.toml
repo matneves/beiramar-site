@@ -6,7 +6,23 @@ other = "Sobre nós"
 other = "Sobre"
 [servicos]
 other = "Serviços"
-[clientes]
-other = "Clientes"
+[portos]
+other = "Portos e Terminais"
 [contato]
 other = "Contato"
+[titulo-sobre]
+other = "Temos o que você precisa"
+[nossos-servicos]
+other = "Nossos serviços"
+[titulo-servicos]
+other = "A seu serviço"
+[servico-agenciamento]
+other = "Agenciamento"
+[servico-supervisao-carga]
+other = "Supervisão de carga"
+[servico-transporte]
+other = "Transporte"
+[servico-reserva-hotel]
+other = "Reserva de hotel"
+[titulo-contato]
+other = "Vamos conversar"

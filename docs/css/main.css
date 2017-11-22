@@ -42,12 +42,42 @@ h3, .h3 {
 }
 
 #portos {
-	padding-top: 0;
-    padding-bottom: 70px;
-    height: 485px;
-    box-sizing: border-box;
+    padding: 20px 0 0;
 }
 
-#portos #map {
+#map-container {
+	height: 485px;
+}
+
+#map-container #map {
 	height: 100%;
+}
+
+#lista-portos {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+#lista-portos li {
+	/*margin: 0 5px;*/
+}
+
+#lista-portos li:after {
+	content: '•';
+	margin: 0 5px;
+}
+
+#lista-portos li:last-child:after {
+	display: none;
+}
+
+#footer {
+	padding-top: 0;
+	font-size: 14px;
+}
+
+#footer .row {
+	justify-content: center;
 }

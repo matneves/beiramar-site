@@ -6,9 +6,28 @@
     <description>Recent content on Beira Mar Serviços Marítimos LTDA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
+    <lastBuildDate>Sun, 08 Oct 2017 11:24:05 -0300</lastBuildDate>
     
 	<atom:link href="https://matneves.github.io/beiramar-site/en/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Contato</title>
+      <link>https://matneves.github.io/beiramar-site/en/contato/</link>
+      <pubDate>Sun, 08 Oct 2017 11:24:05 -0300</pubDate>
+      
+      <guid>https://matneves.github.io/beiramar-site/en/contato/</guid>
+      <description>Ready to start your next project with us? That&amp;rsquo;s great! Give us a call or send us an email and we will get back to you as soon as possible!</description>
+    </item>
+    
+    <item>
+      <title>Sobre</title>
+      <link>https://matneves.github.io/beiramar-site/en/sobre/</link>
+      <pubDate>Sun, 08 Oct 2017 11:24:05 -0300</pubDate>
+      
+      <guid>https://matneves.github.io/beiramar-site/en/sobre/</guid>
+      <description>Beira Mar Servicios Marítimos LTDA. was founded in February 1992 in Salvador, Bahia. We have since been working hard to ensure more agile vessel turnarounds, accurate information and protection of our customers from modern maritime trade vagaries. Our clients receive the best solutions for all their logistical and informational demands, before their vessels reach their destination and during their stay in the port.</description>
+    </item>
     
   </channel>
 </rss>

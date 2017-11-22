@@ -2,13 +2,22 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Portos e Terminais</h2>
+        <h2 class="section-heading">{{ i18n "titulo-portos" }}</h2>
         <hr>
+        <ul id="lista-portos">
+          <li>Salvador</li>
+          <li>Aratu</li>
+          <li>Aracaju</li>
+          <li>Ilhéus</li>
+          <li>Porto Seguro</li>
+        </ul>
       </div>
     </div>
   </div>
 
-  <div id="map"></div>
+  <div id="map-container">
+    <div id="map"></div>
+  </div>
 </section>
 
 <script>

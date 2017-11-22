@@ -1,6 +1,15 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  var loc = window.location.href;
+  var userLang = navigator.language || navigator.userLanguage;
+
+  if (userLang == 'en-US' && loc.indexOf('/en') == -1) {
+    window.location = window.location.href + '/en';
+  } else if (userLang != 'en-US' && loc.indexOf('/en') != -1) {
+    window.location = loc.replace('/en', '');
+  }
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {

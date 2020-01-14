@@ -129,3 +129,12 @@ h3, .h3 {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+#slide-4 {
+	background-image: url("../img/porto-4.jpg");
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

@@ -6,6 +6,7 @@
 					<li id="slide-1" class="glide__slide"></li>
 					<li id="slide-2" class="glide__slide"></li>
 					<li id="slide-3" class="glide__slide"></li>
+					<li id="slide-4" class="glide__slide"></li>
 				</ul>
 			</div>
 		</div>
@@ -26,6 +27,7 @@
 <script src='{{ "js/glide/glide.min.js" | absURL }}'></script>
 <script type="text/javascript">
 	new Glide('.glide', {
+		type: 'carousel'
 		autoplay: 10000,
 		gap: 0
 	}).mount()

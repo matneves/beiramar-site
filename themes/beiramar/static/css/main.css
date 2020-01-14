@@ -81,3 +81,51 @@ h3, .h3 {
 #footer .row {
 	justify-content: center;
 }
+
+.glide img {
+	width: 100%;
+}
+
+.glide * {
+	height: 100vh;
+}
+
+.glide ul li {
+
+}
+
+/*.glide ul li div {
+	background-image: url("../img/header.jpg");
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}*/
+
+#slide-1 {
+	background-image: url("../img/porto-1.jpg");
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#slide-2 {
+	background-image: url("../img/porto-2.jpg");
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#slide-3 {
+	background-image: url("../img/porto-3.jpg");
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

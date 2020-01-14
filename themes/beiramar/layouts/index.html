@@ -1,5 +1,15 @@
 {{ define "main" }}
 <header class="masthead">
+	<div class="glide">
+			<div class="glide__track" data-glide-el="track">
+				<ul class="glide__slides">
+					<li id="slide-1" class="glide__slide"></li>
+					<li id="slide-2" class="glide__slide"></li>
+					<li id="slide-3" class="glide__slide"></li>
+				</ul>
+			</div>
+		</div>
+
 	<div class="header-content">
 		<div class="header-content-inner">
 			<h1 id="homeHeading">
@@ -12,6 +22,14 @@
 		</div>
 	</div>
 </header>
+
+<script src='{{ "js/glide/glide.min.js" | absURL }}'></script>
+<script type="text/javascript">
+	new Glide('.glide', {
+		autoplay: 10000,
+		gap: 0
+	}).mount()
+</script>
 
 {{ partial "home/about.html" . }}
 {{ partial "home/services.html" . }}

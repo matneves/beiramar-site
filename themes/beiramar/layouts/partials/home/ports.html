@@ -10,6 +10,7 @@
           <li>Aracaju</li>
           <li>Ilhéus</li>
           <li>Porto Seguro</li>
+          <li>Itaqui</li>
         </ul>
       </div>
     </div>
@@ -23,17 +24,18 @@
 <script>
   function initMap() {
     var lat_min = -16.4443537;
-    var lat_max = -12.77648;
-    var lng_min = -39.0653656;
+    var lat_max = -2.577658;
+    var lng_min = -44.3673458;
     var lng_max = -38.4981107;
 
     var salvador = {lat: -12.96591392, lng: -38.50997191};
     var aratu = {lat: -12.77648, lng: -38.4981107};
     var ilheus = {lat: -14.7769032, lng: -39.0272426};
     var portoSeguro = {lat: -16.4443537, lng: -39.0653656};
+    var itaqui = {lat: -2.577658, lng: -44.3673458};
 
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 7
+      zoom: 5.2
     });
 
     map.setCenter(new google.maps.LatLng(
@@ -45,16 +47,19 @@
     var mkA = new google.maps.Marker({map: map, position: aratu, title: 'Porto de Aratu'});
     var mkI = new google.maps.Marker({map: map, position: ilheus, title: 'Porto de Ilhéus'});
     var mkP = new google.maps.Marker({map: map, position: portoSeguro, title: 'Porto Seguro'});
+    var mkIta = new google.maps.Marker({map: map, position: itaqui, title: 'Porto do Itaqui'});
 
     var infoS = new google.maps.InfoWindow({content: "Porto de Salvador"});
     var infoA = new google.maps.InfoWindow({content: "Porto de Aratu"});
     var infoI = new google.maps.InfoWindow({content: "Porto de Ilhéus"});
     var infoP = new google.maps.InfoWindow({content: "Porto Seguro"});
+    var infoIta = new google.maps.InfoWindow({content: "Porto do Itaqui"});
 
     mkS.addListener('click', function() {infoS.open(map, mkS); });
     mkA.addListener('click', function() {infoA.open(map, mkA); });
     mkI.addListener('click', function() {infoI.open(map, mkI); });
     mkP.addListener('click', function() {infoP.open(map, mkP); });
+    mkIta.addListener('click', function() {infoIta.open(map, mkIta); });
   }
 </script>
 

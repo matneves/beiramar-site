@@ -5,8 +5,8 @@
 		{{ block "title" . }}{{ .Site.Title }} {{ with .Title }}{{ end }}{{ end }}
 	</title>
 
-	<link href='{{ "img/favicon.ico" | absURL }}' rel="icon" type="image/x-icon">
-	<link href='{{ "css/main.css?v=2" | absURL }}' rel='stylesheet' type="text/css">
+	<link href='{{ "img/favicon.ico" | relURL }}' rel="icon" type="image/x-icon">
+	<link href='{{ "css/main.css?v=2" | relURL }}' rel='stylesheet' type="text/css">
 </head>
 <body id="page-top">
 	{{ block "header" . }}
